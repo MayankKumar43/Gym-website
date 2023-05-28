@@ -1,0 +1,107 @@
+body {
+    font-family: "Trirong", serif;
+    background: url(image/backg.im.jpg);
+    color: rgb(222, 211, 211);
+    margin: 0px;
+    padding: 0px;
+
+}
+.left{
+
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.left img{
+    width: 106px;
+    filter: invert(100);
+    border-radius: 15px;
+
+}
+.left div{
+    font-family: "sofia", sans-serif;
+    line-height: 19px; 
+    font-size: 20px;
+    text-align: center;
+}
+
+.mid{
+    display: block;
+    width: 36%;
+    margin:30px auto;
+}
+.right{
+    position: absolute;
+    right: 35px;
+    top: 43px;
+    display: inline-block;
+
+}
+.navbar{
+    display: inline-block;
+}
+
+.navbar li {
+    display:inline-block;
+    font-size: 15px;
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+.navbar li a:hover,
+.navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    font-family: "Trirong", serif;
+    margin: 0px 10px;
+    background-color: rgb(200, 186, 186);
+
+    padding:4px 10px;
+    border: 2px solid grey;
+    border-radius: 10px; 
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: grey;
+}
+
+
+.container{
+    border: 20px;
+    margin: 30px;
+    padding: 20px;
+    width: 33%;
+
+}
+.form-group input{
+    font-family: "Trirong", serif;
+    text-align: center;
+    display: block;
+    width:500px;
+    padding: 2px;
+    border: 1px solid black;
+    margin:12px auto;
+    border-radius: 4px;
+    font-size: 14px;
+
+}
+.container h1{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 30px;
+
+}
+
+.container button{
+    display:inline-block ;
+    width: 24%;
+    margin: 0px auto;
+}
